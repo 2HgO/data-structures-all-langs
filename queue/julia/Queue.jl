@@ -16,7 +16,6 @@ struct Queue{T}
   Queue{T}(;driver::LinkedList{T} = LinkedList{T}()) where T = new(LinkedList{T}())
 end
 
-
 """
 Add element `e` to back of the queue
 """
