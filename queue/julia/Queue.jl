@@ -13,7 +13,7 @@ struct Queue{T}
   """
   Returns a new queue of type `T`
   """
-  Queue{T}(;driver::LinkedList{T} = LinkedList{T}()) where T = new(LinkedList{T}())
+  Queue{T}(;driver::LinkedList{T} = LinkedList{T}()) where T = new(driver)
 end
 
 """
